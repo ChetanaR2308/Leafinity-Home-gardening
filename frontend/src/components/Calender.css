@@ -1,0 +1,132 @@
+/* frontend/src/components/Calender.css */
+
+.calendar-container {
+    padding: 3rem 2rem;
+    background: #f0fdf4; /* light green background */
+    font-family: 'Segoe UI', sans-serif;
+    color: #064e3b;
+  }
+  
+  .calendar-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    color: #047857;
+    text-align: center;
+  }
+  
+  .grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 64, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-4px);
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid #d1fae5;
+  }
+  
+  .task-item:last-child {
+    border-bottom: none;
+  }
+  
+  .task-icon {
+    font-size: 1.8rem;
+    flex-shrink: 0;
+    padding: 0.5rem;
+    border-radius: 50%;
+  }
+  
+  .task-icon.watering {
+    background-color: #dbeafe;
+    color: #2563eb;
+  }
+  
+  .task-icon.maintenance {
+    background-color: #fef3c7;
+    color: #b45309;
+  }
+  
+  .task-icon.planting {
+    background-color: #dcfce7;
+    color: #15803d;
+  }
+  
+  .task-content h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #064e3b;
+  }
+  
+  .task-content p {
+    margin: 0.2rem 0;
+    font-size: 0.95rem;
+    color: #374151;
+  }
+  
+  .empty-message {
+    text-align: center;
+    font-style: italic;
+    color: #6b7280;
+    margin-top: 1rem;
+  }
+  
+  .task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .task-form label {
+    font-weight: 600;
+    color: #047857;
+  }
+  
+  .task-form input,
+  .task-form select,
+  .task-form textarea {
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #a7f3d0;
+    font-size: 1rem;
+    background-color: #ecfdf5;
+  }
+  
+  .task-form input:focus,
+  .task-form select:focus,
+  .task-form textarea:focus {
+    outline: none;
+    border-color: #10b981;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3);
+  }
+  
+  .task-form button {
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .task-form button:hover {
+    background-color: #059669;
+    transform: scale(1.02);
+  }
+  

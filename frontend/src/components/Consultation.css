@@ -1,0 +1,200 @@
+.consultation-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  header p {
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  .search-filter-box {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  
+  .search-filter-box label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 0.3rem;
+  }
+  
+  .search-filter-box input,
+  .search-filter-box select {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .experts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  .expert-card {
+    display: flex;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+  
+  .expert-image img {
+    width: 220px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .expert-details {
+    padding: 1.5rem;
+    flex: 1;
+  }
+  
+  .expert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  
+  .expert-header h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .expert-header p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .rating {
+    color: #fbbf24;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  .rating i {
+    margin-right: 4px;
+  }
+  
+  .expert-meta p {
+    margin: 0.2rem 0;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .expert-meta i {
+    margin-right: 6px;
+  }
+  
+  .expert-description {
+    margin-top: 1rem;
+    color: #555;
+  }
+  
+  .expert-tags {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .tag {
+    background: #d1fae5;
+    color: #065f46;
+    padding: 0.3rem 0.6rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+  }
+  
+  .expert-footer {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .primary-btn {
+    background-color: #059669;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .primary-btn:hover {
+    background-color: #047857;
+  }
+  
+  .rate {
+    font-weight: bold;
+    color: #059669;
+    font-size: 1rem;
+  }
+  
+  .no-experts {
+    text-align: center;
+    margin-top: 2rem;
+    color: #888;
+  }
+  
+  .no-experts i {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .consultation-form {
+    margin-top: 3rem;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  }
+  
+  .consultation-form h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .consultation-form form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+  
+  .consultation-form input,
+  .consultation-form select,
+  .consultation-form textarea {
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+  }
+  
+  .consultation-form textarea {
+    grid-column: span 2;
+  }
+  
+  .consultation-form button {
+    grid-column: span 2;
+  }
+  
